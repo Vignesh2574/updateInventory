@@ -15,7 +15,7 @@ public class InventorySupply {
 		ItemID = itemID;
 	}
 	public Integer getSupply() {
-		return Supply;
+		return Supply+1;
 	}
 	public void setSupply(Integer supply) {
 		Supply = supply;
